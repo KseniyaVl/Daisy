@@ -1,0 +1,442 @@
+@import 'font.css';
+body {
+  /* тело сайта */
+  margin: 0 auto;
+  max-width: 1260px;
+  /* Кнопка наверх */
+}
+body .arrow1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 28px;
+  height: 28px;
+  transition: .3s;
+}
+body .arrow1:hover {
+  filter: brightness(80%);
+}
+body .arrow2 {
+  width: 28px;
+  height: 28px;
+  transition: .3s;
+}
+body .arrow2:hover {
+  filter: brightness(50%);
+}
+body .btn_1 {
+  margin: 0 auto;
+  color: #fc635e;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'PFEncoreSansPro-Light';
+  font-weight: 300;
+  padding: 20px 39px;
+  border: 2px solid #fc635e;
+  border-radius: 10px;
+  transition: .3s;
+}
+body .btn_1:hover {
+  background-color: #fc635e;
+  color: #fff;
+}
+body .mainText {
+  text-align: center;
+}
+body .mainText h2 {
+  font-size: 51px;
+  font-family: 'MYRIADPRO-REGULAR';
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 28px;
+  margin-top: 0;
+}
+body .mainText h2 span {
+  color: #fc635e;
+}
+body .mainText p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+body .mainHeader {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'PFEncoreSansPro-Medium';
+  font-weight: 500;
+  color: #868686;
+  margin-bottom: 12px;
+}
+body .mainHeader span {
+  color: #fc635e;
+}
+body .mainHeader_p {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'PFEncoreSansPro-Light';
+  font-weight: 300;
+  color: #adadad;
+  margin-bottom: 81px;
+}
+body .line {
+  margin: 0 auto;
+  border-bottom: 1px solid #adadad;
+  width: 365px;
+  margin-bottom: 19px;
+}
+body header {
+  background-image: url(../img/backgroung.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  width: 100%;
+  justify-content: space-around;
+}
+body header p {
+  font-size: 24px;
+  font-family: 'MYRIADPRO-REGULAR';
+  font-weight: 400;
+  color: #fff;
+}
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav > a {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'gothampro_bold';
+  font-weight: bold;
+  text-decoration: none;
+}
+body header nav > a img {
+  padding-right: 16px;
+  vertical-align: middle;
+}
+body header nav .logo:hover img {
+  opacity: .7;
+}
+body header nav menu {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+body header nav menu li {
+  padding-right: 50px;
+}
+body header nav menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'PFEncoreSansPro-Thin';
+  font-weight: 100;
+  letter-spacing: 0.04em;
+}
+body header nav menu li a:hover {
+  color: #fc635e;
+  border-bottom: 3px solid #fc635e;
+  padding-bottom: 5px;
+}
+body .receive {
+  padding: 67px 165px 15px 165px;
+  text-align: center;
+}
+body .receive .icons {
+  display: flex;
+  justify-content: space-between;
+}
+body .receive .icon {
+  margin-right: 46px;
+}
+body .receive .icon:last-child {
+  margin-right: 0;
+}
+body .receive .icon h3 {
+  font-size: 20px;
+  font-family: 'PFEncoreSansPro-Medium';
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #868686;
+  margin-top: 21px;
+  margin-bottom: 18px;
+}
+body .receive .icon .line {
+  width: 59px;
+  margin-bottom: 22px;
+}
+body .receive .icon p {
+  color: #adadad;
+  font-size: 15px;
+  font-family: 'PFEncoreSansPro-Light';
+  font-weight: 300;
+  padding: 0;
+  margin-bottom: 51px;
+}
+body .expand {
+  padding: 90px 100px 15px 100px;
+  background-image: url(../img/background2.png);
+  background-repeat: no-repeat;
+}
+body .expand .mainText {
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  padding-top: 125px;
+  padding-bottom: 100px;
+  margin-bottom: 53px;
+}
+body .expand h2 {
+  padding-bottom: 55px;
+  margin: 0;
+  font-family: 'PFEncoreSansPro-Bold';
+  font-weight: 700;
+}
+body .expand .btn_1 {
+  padding: 20px 57px;
+}
+body .our_process {
+  padding: 67px 165px 15px 165px;
+  text-align: center;
+}
+body .our_process .steps {
+  display: none;
+}
+body .our_process .mainHeader {
+  margin-bottom: 12px;
+}
+body .our_process .line {
+  width: 183px;
+  margin-bottom: 19px;
+}
+body .our_process .mainHeader_p {
+  margin-bottom: 57px;
+}
+body .our_process .back_process {
+  background-image: url(../img/our_process.png);
+  min-height: 500px;
+  min-width: auto;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 36px;
+}
+body .wedo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 100px 15px 100px;
+  background-color: #f2f2f2;
+}
+body .wedo1 .line {
+  width: 222px;
+  margin-bottom: 30px;
+}
+body .wedo1 .container {
+  display: flex;
+  justify-content: space-around;
+}
+body .wedo1 .container .left {
+  text-align: left;
+  max-width: 50%;
+}
+body .wedo1 .container .left .mainHeader {
+  border-left: 10px solid #fc635e;
+  padding-left: 5px;
+}
+body .wedo1 .container .left .mainHeader_p {
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+body .wedo1 .container .left .btn_1 {
+  padding: 20px 36px 20px 39px;
+}
+body .wedo1 .container .right {
+  max-width: 50%;
+}
+body .wedo1 .arrow2 {
+  padding-top: 156px;
+}
+body .wedo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 100px 15px 100px;
+  background-color: #fff;
+}
+body .wedo2 .container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+}
+body .wedo2 .container .right {
+  max-width: 50%;
+}
+body .wedo2 .container .left {
+  text-align: right;
+  max-width: 50%;
+}
+body .wedo2 .container .left .mainHeader {
+  border-right: 10px solid #fc635e;
+  padding-right: 5px;
+}
+body .wedo2 .container .left .mainHeader_p {
+  margin-top: 20px;
+  margin-bottom: 39px;
+  margin-bottom: 55px;
+}
+body .wedo2 .container .left .btn_1 {
+  padding: 20px 36px 20px 39px;
+}
+body .wedo2 .arrow2 {
+  padding-top: 156px;
+}
+body .porfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 100px 15px 100px;
+}
+body .porfolio .line {
+  width: 142px;
+  margin-bottom: 63px;
+}
+body .porfolio .btn_1 {
+  margin-top: 59px;
+  margin-bottom: 25px;
+}
+body .porfolio .controls {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #565656;
+  border-top: 1px solid #adadad;
+  border-bottom: 1px solid #adadad;
+  padding: 20px 0;
+  margin-bottom: 46px;
+}
+body .porfolio .controls button {
+  font-size: 21px;
+  font-family: 'PFEncoreSansPro-Light';
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fc635e;
+  border: none;
+  background: transparent;
+  padding: 0 23px;
+}
+body .porfolio .controls button:hover {
+  color: #fc635e;
+  cursor: pointer;
+}
+body .porfolio .container-filter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body .porfolio .container-filter #ex1 {
+  background-image: url(../img/porfolio/1.png);
+}
+body .porfolio .container-filter #ex2 {
+  background-image: url(../img/porfolio/2.png);
+}
+body .porfolio .container-filter #ex3 {
+  background-image: url(../img/porfolio/3.png);
+}
+body .porfolio .container-filter #ex4 {
+  background-image: url(../img/porfolio/4.png);
+}
+body .porfolio .container-filter #ex5 {
+  background-image: url(../img/porfolio/5.png);
+}
+body .porfolio .container-filter #ex6 {
+  background-image: url(../img/porfolio/6.png);
+}
+body .porfolio .container-filter div {
+  background-size: cover;
+  background-position: center center;
+  margin: 10px;
+  width: 250px;
+  height: 180px;
+}
+body .porfolio .container-filter div .fil {
+  font-size: 20px;
+  font-family: 'PFEncoreSansPro-Bold';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  display: none;
+  position: relative;
+  margin: 0;
+  background: url(../img/porfolio/plus.png) rgba(255, 72, 72, 0.75);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .porfolio .container-filter div .fil p {
+  margin: 0;
+  padding: 10px;
+}
+body .porfolio .container-filter div:hover .fil {
+  cursor: pointer;
+  display: block;
+}
+body .our_team {
+  padding: 54px 100px 35px 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+body .our_team .line {
+  width: 142px;
+  margin-bottom: 73px;
+}
+body .our_team .mainHeader {
+  color: #565656;
+}
+body .our_team .teams {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .our_team .teams .team {
+  text-align: center;
+}
+body .our_team .teams .mainHeader {
+  text-transform: none;
+  font-size: 25px;
+  color: #565656;
+}
+body .our_team .teams .mainHeader_p {
+  margin-bottom: 14px;
+  color: #565656;
+}
+body .our_team .teams a {
+  color: #565656;
+  font-size: 10px;
+  transition: .3s;
+  text-decoration: none;
+}
+body .our_team .teams a:hover {
+  color: #fc635e;
+}
+body #toTop {
+  z-index: 999;
+  width: 22px;
+  height: 22px;
+  border: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 3px;
+  background: #fc635e;
+  color: #565656;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}

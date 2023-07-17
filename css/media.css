@@ -1,0 +1,282 @@
+@media screen and (max-width: 1260px) and (min-width:909px) {
+    body .wedo1,
+    body .wedo2 {
+        padding: 60px 70px 15px 70px;
+    }
+    body .porfolio {
+        padding: 60px 70px 15px 70px;
+    }
+}
+@media screen and (max-width: 908px) and (min-width:769px) {
+    body .receive {
+        padding: 67px 70px 15px 70px;
+    }
+    body .expand {
+        padding: 70px 70px 15px;
+    }
+    body .expand .mainText {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    body .our_process {
+        padding: 67px 70px 15px 70px;
+    }
+    body .our_process .back_process {
+        min-height: 450px;
+    }
+    body .wedo1,
+    body .wedo2 {
+        padding: 30px 30px 15px;
+        text-align: center;
+        height: auto;
+    }
+    body .wedo1 .left .btn_1,
+    body .wedo2 .left .btn_1 {
+        padding: 10px;
+    }
+    body .porfolio {
+        padding: 30px 30px 15px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width:550px) {
+    nav {
+        flex-direction: column; 
+        justify-content: center;
+    }
+    body .receive {
+        padding: 37px 20px 15px 20px;
+    }
+    body .receive .icon {
+        margin-right: 20px;
+    }
+    body .receive h2 {
+        margin-bottom: 7px;
+    }
+    body .receive p {
+        margin-bottom: 25px;
+    }
+    body .expand {
+        padding: 50px 50px 15px;
+    }
+    body .expand .mainText {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    body .our_process {
+        padding: 37px 20px 15px 20px;
+    }
+    body .our_process .back_process {
+        min-height: 350px;
+    }
+    body .wedo1,
+    body .wedo2 {
+        padding: 25px;
+        text-align: center;
+    }
+    body .wedo1 .container,
+    body .wedo2 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    body .wedo1 .line {
+        margin-bottom: 0;
+    }
+    body .wedo1 .container .left,
+    body .wedo2 .container .left {
+        padding-bottom: 15px;
+        order: 2;
+        max-width: 100%;
+    }
+    body .wedo2 .container .left {
+        text-align: left;
+    }
+    body .wedo2 .container .left .mainHeader {
+        border-left: 10px solid @primary-color;
+        padding-left: 5px;
+        border-right: none;
+    }
+    body .wedo1 .container .right,
+    body .wedo2 .container .right {
+        order: 1;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    body .wedo1 .container img,
+    body .wedo2 .container img {
+        width: 100%;
+    }
+    body .wedo1 .left .btn_1,
+    body .wedo2 .left .btn_1 {
+        padding: 10px;
+    }
+    body .wedo1 .arrow2,
+    body .wedo2 .arrow2 {
+        padding-top: 80px;
+    }
+    body .porfolio .line {
+        margin-bottom: 25px;
+    }
+    body .porfolio {
+        padding: 25px;
+    }
+    body .our_team .teams {
+        flex-wrap: wrap;
+    }
+    body .our_team .teams .team {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 549px) {
+    nav {
+        padding: 0 20px;
+    }
+    body header nav {
+        justify-content: space-between;
+    }
+    menu {
+        display: flex;
+        flex-direction: column;
+    }
+    menu li {
+        margin-bottom: 10px;
+    }
+    body header nav menu li {
+        padding-right: 10px;
+    }
+    body header .mainText h2 {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    body header .mainText p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    body .receive {
+        padding: 37px 20px 15px 20px;
+    }
+    body .receive .line {
+        width: 200px;
+    }
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body .receive .icon {
+        margin-right: 0;
+    }
+    body .receive p {
+        margin-bottom: 20px;
+    }
+    body .receive .icon h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    body .receive .icon .line {
+        margin-bottom: 10px;
+    }
+    body .receive .icon p {
+        margin-bottom: 20px;
+    }
+    body .expand h2 {
+        font-size: 40px;
+    }
+    body .expand {
+        padding: 25px 25px 15px;
+    }
+    body .expand .mainText {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+    body .our_process .steps {
+        display: block;
+    }
+    .back_process {
+        display: none;
+    }
+    body .our_process {
+        padding: 37px 20px 15px 20px;
+    }
+    body .receive .line {
+        width: 200px;
+    }
+    body .our_process .steps .line {
+        width: 76px;
+    }
+    body .wedo1,
+    body .wedo2 {
+        padding: 25px;
+        text-align: center;
+    }
+    body .wedo1 .container,
+    body .wedo2 .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    body .wedo1 .line {
+        margin-bottom: 0;
+    }
+    body .wedo1 .container .left,
+    body .wedo2 .container .left {
+        padding-bottom: 15px;
+        order: 2;
+        max-width: 100%;
+    }
+    body .wedo2 .container .left {
+        text-align: left;
+    }
+    body .wedo2 .container .left .mainHeader {
+        border-left: 10px solid @primary-color;
+        padding-left: 5px;
+        border-right: none;
+    }
+    body .wedo1 .container .right,
+    body .wedo2 .container .right  {
+        order: 1;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    body .wedo1 .container img,
+    body .wedo2 .container img {
+        width: 100%;
+    }
+    body .wedo1 .container .left .btn_1,
+    body .wedo2 .container .left .btn_1 {
+        padding: 5px;
+        text-align: center;
+    }
+    body .wedo1 .arrow2,
+    body .wedo2 .arrow2 {
+        padding-top: 20px;
+    }
+    body .porfolio {
+        padding: 25px;
+    }
+    body .porfolio .btn_1 {
+        padding: 5px;
+    }
+    body .our_team .teams {
+        flex-direction: column;
+    }
+    body .our_team .line {
+        margin-bottom: 35px;
+    }
+    body .our_team .teams .team {
+        margin-bottom: 21px;
+    }
+    body .our_team .teams .mainHeader {
+        margin-bottom: 7px;
+    }
+    body .our_team .teams .mainHeader_p {
+        margin-bottom: 7px;
+    } 
+}
+@media screen and (max-width: 355px) {
+    body .our_team .teams a {
+        font-size: 7px;
+    }
+}

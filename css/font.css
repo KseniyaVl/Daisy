@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'gothampro_bold';
+    src: url(../fonts/gothampro_bold.ttf);
+}
+@font-face {
+    font-family: 'PFEncoreSansPro-Medium';
+    src: url(../fonts/PFEncoreSansPro-Medium.eot),
+    url(../fonts/PFEncoreSansPro-Medium.ttf),
+    url(../fonts/PFEncoreSansPro-Medium.woff),
+    url(../fonts/PFEncoreSansPro-Medium.woff2);
+}
+@font-face {
+    font-family: 'PFEncoreSansPro-Light';
+    src: url(../fonts/PFEncoreSansPro-Light.eot),
+    url(../fonts/PFEncoreSansPro-Light.ttf),
+    url(../fonts/PFEncoreSansPro-Light.woff),
+    url(../fonts/PFEncoreSansPro-Light.woff2);
+}
+@font-face {
+    font-family: 'PFEncoreSansPro-Bold';
+    src: url(../fonts/PFEncoreSansPro-Bold.eot),
+    url(../fonts/PFEncoreSansPro-Bold.ttf),
+    url(../fonts/PFEncoreSansPro-Bold.woff),
+    url(../fonts/PFEncoreSansPro-Bold.woff2);
+}
+@font-face {
+    font-family: 'PFEncoreSansPro-Thin';
+    src: url(../fonts/PFEncoreSansPro-Thin.eot),
+    url(../fonts/PFEncoreSansPro-Thin.ttf),
+    url(../fonts/PFEncoreSansPro-Thin.woff),
+    url(../fonts/PFEncoreSansPro-Thin.woff2);
+}
+@font-face {
+    font-family: 'MYRIADPRO-REGULAR';
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
